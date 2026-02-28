@@ -47,7 +47,7 @@ export const metadata = {
     title: "Navgrah Production | Wedding & Event Decor Experts",
     description:
       "Premium wedding and event decor company in Ghaziabad.",
-    images: ["/og-image.jpg"],
+    images: ["/logo.jpg"],
   },
 
   robots: {
