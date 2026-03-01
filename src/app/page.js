@@ -15,7 +15,7 @@ export default function Home() {
     telephone: "+91-9811271910",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "The Ornate, Sector-4, Vaishali",
+      streetAddress: "Wave Executive Floors, Wave City, Ghaziabad",
       addressLocality: "Ghaziabad",
       addressRegion: "Uttar Pradesh",
       postalCode: "201010",

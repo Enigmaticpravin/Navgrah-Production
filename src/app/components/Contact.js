@@ -83,11 +83,11 @@ export default function Contact() {
                 </div>
                 <p className="text-gray-500 text-[10px] uppercase tracking-widest font-bold mb-4">Our Office</p>
                 <p className="text-white text-xl leading-relaxed max-w-xs font-light">
-                  The Ornate, Sector-4, <br />
-                  Vaishali, Ghaziabad <br />
+                  806, Wave Executive Floor, <br />
+                  Wave City, Ghaziabad <br />
                   Uttar Pradesh - 201010
                 </p>
-              </div>
+              </div> 
 
               <div className="relative z-10 mt-12">
                 <button 
