@@ -6,7 +6,6 @@ export default function WhatsAppCta() {
 
   return (
     <div className="fixed bottom-8 right-8 z-[999] group">
-      {/* Tooltip Label - Slides out on Hover */}
       <div className="absolute right-full mr-4 top-1/2 -translate-y-1/2 whitespace-nowrap opacity-0 translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 pointer-events-none">
         <div className="bg-white/80 backdrop-blur-md border border-gray-200 px-4 py-2 rounded-2xl shadow-xl">
           <p className="text-[10px] font-black tracking-[0.2em] text-gray-800 uppercase">
@@ -15,7 +14,6 @@ export default function WhatsAppCta() {
         </div>
       </div>
 
-      {/* The Button */}
       <a
         href={`https://wa.me/${phoneNumber}?text=${message}`}
         target="_blank"
@@ -23,11 +21,9 @@ export default function WhatsAppCta() {
         className="relative flex items-center justify-center w-16 h-16 rounded-full bg-[#25D366] text-white shadow-[0_10px_40px_rgba(37,211,102,0.4)] transition-all duration-300 hover:scale-110 active:scale-95 group"
         aria-label="Chat on WhatsApp"
       >
-        {/* Animated Pulse Rings */}
         <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20 group-hover:hidden"></span>
         <span className="absolute inset-[-4px] rounded-full border border-[#25D366]/30 animate-pulse"></span>
 
-        {/* WhatsApp Icon */}
         <svg 
           className="w-8 h-8 fill-current" 
           viewBox="0 0 24 24" 

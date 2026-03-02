@@ -34,8 +34,7 @@ export default function Hero() {
       ))}
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-        <div className="inline-block mb-4 px-4 py-1.5 border border-white/20 rounded-full bg-white/10 backdrop-blur-md">
-        </div>
+      
 
         <h1 className="text-5xl md:text-8xl font-black text-white mb-8 tracking-tighter leading-[0.9]">
           WE CRAFT <br />
@@ -45,15 +44,15 @@ export default function Hero() {
           EXPERIENCES
         </h1>
 
-        <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-10 font-light leading-relaxed">
+        <p className="max-w-2xl mx-auto text-sm md:text-xl text-gray-200 mb-10 font-light leading-relaxed">
           From grand weddings to boutique celebrations, we turn your 
           vision into a breathtaking reality with bespoke decor.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+        <div className="flex flex-row sm:flex-row items-center justify-center gap-6">
           <a
             href="#contact"
-            className="group relative px-10 py-4 bg-white text-black font-bold rounded-full transition-all duration-300 hover:pr-14"
+            className="group relative py-2 px-5 md:px-10 md:py-4 bg-white text-black text-sm md:text-lg font-bold rounded-full transition-all duration-300 hover:pr-14"
           >
             <span>GET A QUOTE</span>
             <span className="absolute right-5 opacity-0 group-hover:opacity-100 transition-all">→</span>
@@ -61,20 +60,13 @@ export default function Hero() {
 
           <a
             href="#services"
-            className="px-10 py-4 border border-white/30 text-white font-bold rounded-full hover:bg-white/10 backdrop-blur-sm transition-all"
+            className="md:px-10 py-2 px-5 md:py-4 border border-white/30 text-sm md:text-lg text-white font-bold rounded-full hover:bg-white/10 backdrop-blur-sm transition-all"
           >
             EXPLORE GALLERY
           </a>
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-0 w-full flex justify-center items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-         <span className="text-white/40 text-[10px] tracking-[0.4em] uppercase font-bold">As Seen In:</span>
-         <div className="h-px w-12 bg-white/20"></div>
-         <span className="text-white text-xs font-serif italic">WeddingWire</span>
-         <span className="text-white text-xs font-serif italic">Zola</span>
-         <span className="text-white text-xs font-serif italic">TheKnot</span>
-      </div>
 
       <style jsx>{`
         @keyframes ken-burns {
