@@ -85,7 +85,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-gray-500 text-[10px] uppercase tracking-widest font-bold mb-4">Our Office</p>
+                  <p className="text-gray-500 text-[10px] uppercase tracking-widest font-bold mb-4">Address</p>
                   <p className="text-white text-lg md:text-xl leading-relaxed max-w-xs font-light">
                     806, Wave Executive Floor, <br />
                     Wave City, Ghaziabad <br />
@@ -107,11 +107,27 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-600 text-[9px] md:text-[10px] tracking-[0.2em] md:tracking-[0.3em] uppercase font-bold text-center">
-          <p>© 2026 Navgrah Production</p>
-          <div className="hidden md:block w-12 h-px bg-white/10"></div>
-          <p>Designed for Excellence</p>
-        </div>
+<div className="mt-12 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-600 text-[9px] md:text-[10px] tracking-[0.2em] md:tracking-[0.3em] font-bold text-center uppercase">
+  <p>© 2026 Navgrah Production. All rights reserved</p>
+  
+  <Link 
+    href="/terms_and_conditions" 
+    className="hover:text-white transition-colors duration-300 cursor-pointer"
+  >
+    Terms & Conditions
+  </Link>
+  
+  <Link 
+    href="/privacy_policy" 
+    className="hover:text-white transition-colors duration-300 cursor-pointer"
+  >
+    Privacy Policy
+  </Link>
+  
+  <div className="hidden md:block w-12 h-px bg-white/10"></div>
+  
+  <p className="text-gray-400">Designed for Excellence</p>
+</div>
       </div>
     </section>
   );
